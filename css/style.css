@@ -63,6 +63,10 @@ html
 header
 {
 	width: 100%;	
+	display: -webkit-box;	
+	display: -webkit-flex;	
+	display: -moz-box;	
+	display: -ms-flexbox;	
 	display: flex;
 }
 
@@ -90,22 +94,35 @@ header
 	color: #000000;
 	font-size: 2.5rem;
 	text-decoration: none;	
+	-webkit-transition: 0.5s;	
+	-o-transition: 0.5s;	
+	-moz-transition: 0.5s;	
 	transition: 0.5s;
 }
 .header-element:hover
 {
 	color: #3b9e3e;	
+	-webkit-transition: 0.5s;	
+	-o-transition: 0.5s;	
+	-moz-transition: 0.5s;	
 	transition: 0.5s;
 }
 
 .get-started-btn
 {
 	
-	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	   -moz-border-radius: 100px;
+	
+	        border-radius: 100px;
 	border: 2px solid #000;
 	color: #000;
 	margin: 0 auto;
 	padding: 10px 15px;	
+	-webkit-transition: .5s;	
+	-o-transition: .5s;	
+	-moz-transition: .5s;	
 	transition: .5s;
 	width: 150px;
 }
@@ -114,6 +131,12 @@ header
 {
 	color: #3b9e3e;
 	border: 2px solid #3b9e3e;
+	
+	-webkit-transition: .5s;
+	
+	-o-transition: .5s;
+	
+	-moz-transition: .5s;
 	
 	transition: .5s;
 }
