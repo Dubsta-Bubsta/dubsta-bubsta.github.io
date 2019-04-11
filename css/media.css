@@ -73,10 +73,7 @@
 		-ms-grid-columns: auto;		
 		grid-template-columns: auto;		
 	}
-	.nav-conatiner
-	{
-		margin-top: 160px;
-	}
+	
 }
 
 
@@ -162,5 +159,88 @@
 	.slider-video
 	{
 		height: 100px;
+	}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1800px)
+{
+	.inav
+	{
+		margin-left: 25%;
+	}
+}
+
+@media screen and (max-width: 1600px)
+{
+	.inav
+	{
+		margin-left: 10%;
+	}	
+}
+
+@media screen and (max-width: 1400px)
+{
+	.inav
+	{
+		margin-left: 1%;
+	}	
+}
+
+@media screen and (max-width: 1220px)
+{
+
+	.get-started-btn
+	{
+		margin: 0 20px;
+	}
+	.header-conatiner a
+	{
+		display: none;
+	}
+	.header-conatiner a.hamb
+	{
+		float: right;
+		/*margin-right: 50px;*/
+		display: block;
+		margin-top: -1.5rem;
+		float:right;
+		font-size: 2.5rem;
+	}
+
+	.inav
+	{
+		width: 100%;	
+	}
+
+	.header-conatiner.responsive
+	{
+		position: relative;
+		top: 50px;
+		left: -277px;
+	}
+
+	header .header-conatiner.responsive
+	{
+		height: 20rem;
+	}
+
+	.header-conatiner.responsive a.hamb
+	{ 
+		position: absolute;
+		top: -50px;
+		right: -150px;
+	}
+
+	.header-conatiner.responsive a
+	{ 
+		float: none;
+		display: block;
+		text-align: left;
 	}
 }
