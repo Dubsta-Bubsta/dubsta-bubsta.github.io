@@ -1,0 +1,75 @@
+.service-table h2
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.5rem;
+	padding: 50px 0 40px 0;
+	font-weight: 400;
+}
+
+.serivice-tags
+{
+	text-align: center;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: auto 50px auto 50px auto;
+	grid-template-columns: repeat(3,auto);
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+}
+
+.serivice-tag
+{
+	background: #FAFAFA;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
+	-moz-transition:.5s;
+	transition:.5s;
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+}
+
+.serivice-tag:hover
+{
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 10px 1px #C2C1C1;
+	   -moz-box-shadow: 0px 0px 10px 1px #C2C1C1;
+	        box-shadow: 0px 0px 10px 1px #C2C1C1;
+}
+
+
+.serivice-tag h4
+{		
+	margin: 20px 0 10px 0;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.serivice-tag ul 
+{
+	margin: 20px;
+	margin-bottom: auto;
+	font-size: 2rem;
+}
+
+.serivice-tag img
+{
+	margin-bottom: 10px;
+}
+
+.serivice-tag:nth-child(1) img
+{
+	margin-top: 60px;
+}
+
+.serivice-tag:nth-child(2) img
+{
+	margin-top: 5px;
+}
+
+.serivice-tag:nth-child(3) img
+{
+	margin-top: 40px;
+}

@@ -1,0 +1,154 @@
+.about-us-block
+{
+	background: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.7)),to(rgba(0,0,0,0.7))),url(../img/Background-4.jpg);
+	background: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Background-4.jpg);
+	background: -moz-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Background-4.jpg);
+	background: -o-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Background-4.jpg);
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Background-4.jpg);
+	text-align: center;
+	padding: 5rem 0 15rem 0;
+	color:#fff;
+}
+
+.about-us-block p
+{
+	margin: 0 150px;
+	line-height: 30px;
+}
+
+.about-us-block h1
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4rem;
+	padding: 100px 0 30px 0;
+	font-weight: 400;
+}
+
+.about-us-block p
+{
+	font-size: 2rem;	
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.live-photos
+{
+	padding-bottom: 50px;
+}
+
+.live-photos h1
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4rem;
+	padding: 100px 0 30px 0;
+	font-weight: 400;
+}
+
+
+
+/*MAP*/
+.map-grid
+{	
+	margin-top: 5rem;
+	text-align: center;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: auto 50px auto;
+	grid-template-columns: repeat(2,auto);
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+}
+
+.map-info
+{
+	width: 400px;
+}
+
+.map-info h2
+{
+	font-size: 3rem;
+	text-align: center;	
+	margin-bottom: 20px;
+}
+
+.map-info li
+{
+	
+	border-top: 1px solid #C2C1C1;
+	margin-top: 20px;	
+	padding: 30px 0;
+}
+
+.map-info li:nth-child(2n-1)
+{
+	font-size: 1.5rem;
+	margin-top: 20px;	
+}
+
+.map-info li:nth-child(2n)
+{
+	font-size: 2rem;	
+}
+
+.map-info li:nth-child(5),li:nth-child(6)
+{
+border-bottom: 1px solid #C2C1C1;
+}
+
+.map-info ul
+{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (auto)[2];
+	grid-template-columns: repeat(2,auto);
+	-ms-grid-rows: auto 0 auto 0 auto;
+	grid-template-rows: repeat(3, auto);
+	grid-row-gap: 0;
+
+}
+
+.map-info ul > *:nth-child(1)
+{
+	-ms-grid-row: 1;
+	-ms-grid-column: 1;
+
+}
+
+.map-info ul > *:nth-child(2)
+{
+	-ms-grid-row: 1;
+	-ms-grid-column: 2;
+
+}
+
+.map-info ul > *:nth-child(3)
+{
+	-ms-grid-row: 3;
+	-ms-grid-column: 1;
+
+}
+
+.map-info ul > *:nth-child(4)
+{
+	-ms-grid-row: 3;
+	-ms-grid-column: 2;
+
+}
+
+.map-info ul > *:nth-child(5)
+{
+	-ms-grid-row: 5;
+	-ms-grid-column: 1;
+
+}
+
+.map-info ul > *:nth-child(6)
+{
+	-ms-grid-row: 5;
+	-ms-grid-column: 2;
+
+}
+/*MAP*/
